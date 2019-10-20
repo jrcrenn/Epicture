@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content"
+                                             xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:id="@+id/CLayout">
+
+<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" tools:src="@tools:sample/avatars" android:id="@+id/LogoutImg"
+        android:background="@drawable/couleur_noire" android:contentDescription="@string/LogoutImg"/>
+
+<TextView
+        android:text="@string/UserName"
+        android:layout_width="63dp"
+        android:layout_height="21dp"
+        android:id="@+id/UserName" app:layout_constraintStart_toEndOf="@+id/userIcon"
+        android:layout_marginLeft="40dp" android:layout_marginStart="40dp" android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp" tools:src="@tools:sample/avatars"
+            android:id="@+id/userIcon" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:contentDescription="@string/userIcon"/>
+    <TextView
+            android:text="@string/useReput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/useReput" app:layout_constraintStart_toEndOf="@+id/userIcon"
+            android:layout_marginLeft="40dp" android:layout_marginStart="40dp" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/UserName"/>
+    <TextView
+            android:text="@string/uploadText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploadText" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/userIcon"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:typeface="normal"
+            android:textAllCaps="false"/>
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="350dp"
+            android:layout_height="372dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="@+id/LogoutImg" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:id="@+id/galleryup" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/uploadText" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/LogoutImg"/>
+</android.support.constraint.ConstraintLayout>

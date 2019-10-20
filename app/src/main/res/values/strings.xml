@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Picurbate</string>
+    <string name="homestr">Home</string>
+    <string name="favstr">Favorites</string>
+    <string name="profilestr">Profile</string>
+    <string name="authstr">Auth</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="LogoutImg">LogoutImg</string>
+    <string name="userIcon">userIcon</string>
+    <string name="UserName">userName</string>
+    <string name="LogButton">LogButton</string>
+    <string name="useReput">TextView</string>
+    <string name="uploadText">Here are your uploads:</string>
+    <string name="backAuth">TODO</string>
+    <string name="search_btn">Search</string>
+</resources>
