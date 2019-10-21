@@ -1,12 +1,5 @@
 # Epicture
 
-<p align="center">
-<kbd>
-  <img src="https://i.imgur.com/U6GEQR5.png">
-</kbd>
-</p>
-
-
 A photo finder / browsing app based on Imgur API
 
 The goal of this project is to use and implement online photo sharing API platforms.
