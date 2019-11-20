@@ -1,4 +1,4 @@
-#Epicture#
+# Epicture
 
 A photo finder / browsing app based on Imgur API
 
@@ -9,6 +9,6 @@ the creation of this project.
 
 Kotlin was the language used for this project.
 
-###Installation###
+# Installation
 This project is an Android Studio's solution and can be run with it.
 We used Android SDK API 28 and the project is buildt with Gradle.
